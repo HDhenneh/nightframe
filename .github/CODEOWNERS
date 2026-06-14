@@ -1,0 +1,9 @@
+# Glojo Group AI — Nightframe CODEOWNERS
+# All PRs require review from the repo owner by default.
+# Add specific pattern overrides below as the team grows.
+
+*               @HDhenneh
+
+# CI / deploy config — CTO sign-off required
+.github/        @HDhenneh
+netlify.toml    @HDhenneh
