@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nightframe is Glojo Group AI's production-ready directory and product site template. Clone it, customise it, and deploy in one step." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Nightframe — Site Template" />
+  <meta property="og:description" content="Production-ready directory and product site template by Glojo Group AI." />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Nightframe — Site Template" />
+  <meta name="twitter:description" content="Production-ready directory and product site template by Glojo Group AI." />
+
+  <title>Nightframe — Production-Ready Site Template</title>
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+
+  <!-- Skip navigation for screen readers -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ====================================================
+       HEADER / NAV
+       ==================================================== -->
+  <header class="site-header" role="banner">
+    <nav class="nav container" aria-label="Primary navigation">
+
+      <a href="/" class="nav__logo" aria-label="Nightframe — home">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true" focusable="false">
+          <rect width="28" height="28" rx="6" fill="#7c6eff"/>
+          <path d="M8 20L14 8L20 20H16L14 15.5L12 20H8Z" fill="white"/>
+        </svg>
+        <span>Nightframe</span>
+      </a>
+
+      <button
+        class="nav__toggle"
+        aria-expanded="false"
+        aria-controls="nav-menu"
+        aria-label="Toggle navigation menu"
+      >
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+
+      <ul class="nav__menu" id="nav-menu" role="list">
+        <li><a href="#features" class="nav__link">Features</a></li>
+        <li><a href="#listings" class="nav__link">Listings</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Get Started</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <!-- ====================================================
+       MAIN CONTENT
+       ==================================================== -->
+  <main id="main-content">
+
+    <!-- HERO -------------------------------------------- -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="hero__badge" aria-label="Glojo Group AI Template">
+          <span aria-hidden="true">✦</span> Glojo Group AI Template
+        </div>
+        <h1 id="hero-heading" class="hero__title">
+          The fastest way to launch<br />
+          <span class="text-accent">your next directory site</span>
+        </h1>
+        <p class="hero__subtitle">
+          Nightframe gives you a production-ready foundation: nav, hero, listings, and
+          footer — styled, accessible, and deployable in one step.
+        </p>
+        <div class="hero__actions">
+          <a
+            href="https://github.com/HDhenneh/nightframe"
+            class="btn btn--primary"
+            rel="noopener noreferrer"
+          >
+            Clone the template
+          </a>
+          <a href="#features" class="btn btn--ghost">
+            See what's included
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES ----------------------------------------- -->
+    <section class="features section" id="features" aria-labelledby="features-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="features-heading" class="section-title">Everything you need, nothing you don't</h2>
+          <p class="section-subtitle">A minimal, well-structured set of components ready for real deployments.</p>
+        </header>
+
+        <ul class="feature-grid" role="list">
+
+          <li class="feature-card">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                <path d="M3 9h18M9 21V9"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Responsive layout</h3>
+            <p class="feature-card__text">Mobile-first grid system with consistent spacing tokens and a fluid container.</p>
+          </li>
+
+          <li class="feature-card">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 6h16M4 10h16M4 14h10M4 18h6"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Typography system</h3>
+            <p class="feature-card__text">A fluid type scale with clear hierarchy from display headings to body copy.</p>
+          </li>
+
+          <li class="feature-card">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 6h16M4 12h16M4 18h16"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Accessible nav</h3>
+            <p class="feature-card__text">Keyboard-navigable header with ARIA labels, skip link, and mobile hamburger toggle.</p>
+          </li>
+
+          <li class="feature-card">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">One-step deploy</h3>
+            <p class="feature-card__text">Netlify-ready config with branch deploys, preview URLs, and CI baked in.</p>
+          </li>
+
+          <li class="feature-card">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Security headers</h3>
+            <p class="feature-card__text">CSP, X-Frame-Options, and Referrer-Policy preconfigured for production hardening.</p>
+          </li>
+
+          <li class="feature-card">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Lighthouse-ready</h3>
+            <p class="feature-card__text">Performance &gt;90 and SEO &gt;95 targets with Lighthouse CI enforced on every PR.</p>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <!-- LISTINGS ----------------------------------------- -->
+    <section class="listings section" id="listings" aria-labelledby="listings-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="listings-heading" class="section-title">Featured listings</h2>
+          <p class="section-subtitle">Replace this section with your directory content, product cards, or any repeated entity.</p>
+        </header>
+
+        <ul class="listing-grid" role="list">
+
+          <li class="listing-card">
+            <div class="listing-card__category">Category A</div>
+            <h3 class="listing-card__title">Listing title goes here</h3>
+            <p class="listing-card__text">Short description of the listing. Keep it to one or two sentences that describe the value.</p>
+            <a href="#" class="listing-card__link" aria-label="View listing: Listing title goes here">View listing →</a>
+          </li>
+
+          <li class="listing-card">
+            <div class="listing-card__category">Category B</div>
+            <h3 class="listing-card__title">Another listing entry</h3>
+            <p class="listing-card__text">Short description of the listing. Keep it to one or two sentences that describe the value.</p>
+            <a href="#" class="listing-card__link" aria-label="View listing: Another listing entry">View listing →</a>
+          </li>
+
+          <li class="listing-card">
+            <div class="listing-card__category">Category A</div>
+            <h3 class="listing-card__title">Third listing example</h3>
+            <p class="listing-card__text">Short description of the listing. Keep it to one or two sentences that describe the value.</p>
+            <a href="#" class="listing-card__link" aria-label="View listing: Third listing example">View listing →</a>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <!-- CTA BANNER --------------------------------------- -->
+    <section class="cta-banner section" id="about" aria-labelledby="cta-heading">
+      <div class="container">
+        <h2 id="cta-heading" class="cta-banner__title">Ready to ship your site?</h2>
+        <p class="cta-banner__text">
+          Fork Nightframe on GitHub, drop in your content, and have it live within the hour.
+        </p>
+        <a
+          href="https://github.com/HDhenneh/nightframe"
+          class="btn btn--primary btn--large"
+          rel="noopener noreferrer"
+        >
+          Get Nightframe on GitHub
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====================================================
+       FOOTER
+       ==================================================== -->
+  <footer class="site-footer" role="contentinfo" id="contact">
+    <div class="container">
+
+      <div class="footer__grid">
+
+        <div class="footer__brand">
+          <a href="/" class="nav__logo" aria-label="Nightframe — home">
+            <svg width="24" height="24" viewBox="0 0 28 28" fill="none" aria-hidden="true" focusable="false">
+              <rect width="28" height="28" rx="6" fill="#7c6eff"/>
+              <path d="M8 20L14 8L20 20H16L14 15.5L12 20H8Z" fill="white"/>
+            </svg>
+            <span>Nightframe</span>
+          </a>
+          <p class="footer__tagline">Production-ready site template by Glojo Group AI.</p>
+        </div>
+
+        <nav class="footer__nav" aria-label="Footer navigation">
+          <div class="footer__col">
+            <h3 class="footer__col-title">Template</h3>
+            <ul role="list">
+              <li><a href="#features">Features</a></li>
+              <li><a href="#listings">Listings</a></li>
+              <li><a href="https://github.com/HDhenneh/nightframe" rel="noopener noreferrer">GitHub</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h3 class="footer__col-title">Glojo Group AI</h3>
+            <ul role="list">
+              <li><a href="https://glojo.ai" rel="noopener noreferrer">Company</a></li>
+              <li><a href="https://glojo.ai/privacy" rel="noopener noreferrer">Privacy</a></li>
+              <li><a href="https://glojo.ai/terms" rel="noopener noreferrer">Terms</a></li>
+            </ul>
+          </div>
+        </nav>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; <span id="footer-year">2026</span> Glojo Group AI. All rights reserved.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
